@@ -1,3 +1,5 @@
+//Ejercicio 8.4 copiaod talcual.
+//Supeerclase
 import java.util.Arrays;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
@@ -11,5 +13,6 @@ void add(Nota n){
     melodia= Arrays.copyOf(melodia,melodia.length+1);
     melodia[melodia.length-1] = n;
 }
-abstract void interpretar();
+abstract void interpretar();//al ser clase abstracta solo se crea para heredar
 }
+
