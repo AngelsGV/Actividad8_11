@@ -1,3 +1,5 @@
+package Musica;
+
 //Subclase.
 //El constructor es igual pero el metodo cambia :D
 public class Campana extends Instrumento {
